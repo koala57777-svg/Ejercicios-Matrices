@@ -17,7 +17,7 @@ do
     Console.Write("Ingrese el número de columnas: ");
     if (!int.TryParse(Console.ReadLine(), out columnas) || columnas <= 0)
     {
-        Console.WriteLine("Entrada inválida. Por favor, ingrese un número entero positivo para las filas.");
+        Console.WriteLine("Entrada inválida. Por favor, ingrese un número entero positivo para las columnas.");
     }
 } while (columnas <= 0);
 
